@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "db-generator-client-side-solution",
+    "id": "c909325c-20a6-4132-85b8-f43f241a08ed",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "DBGenerator description"
+      },
+      "longDescription": {
+        "default": "DBGenerator description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "db-generator Feature",
+        "description": "The feature that activates elements of the db-generator solution.",
+        "id": "ae134026-3708-4ba0-b271-34ccfa4ce5fc",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/db-generator.sppkg"
+  }
+}
