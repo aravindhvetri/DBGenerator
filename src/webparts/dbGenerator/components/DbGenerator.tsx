@@ -19,7 +19,6 @@ export default class DbGenerator extends React.Component<
       spfxContext: this.props.context as unknown as undefined,
     });
   }
-
   public render(): React.ReactElement<IDbGeneratorProps> {
     return <MainComponent spfxContext={this.props.context} spContext={sp} />;
   }

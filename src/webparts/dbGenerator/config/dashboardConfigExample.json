@@ -1,0 +1,109 @@
+{
+  "listName": "Travel requests",
+  "siteUrl": "https://chandrudemo.sharepoint.com/sites/KaliDevSite",
+  "columns": [
+    {
+      "fieldName": "ID",
+      "displayName": "ID",
+      "type": "number",
+      "visible": false,
+      "filterable": false,
+      "searchable": false,
+      "sortable": true,
+      "width": "60px"
+    },
+    {
+      "fieldName": "Title",
+      "displayName": "Title",
+      "type": "text",
+      "visible": true,
+      "filterable": true,
+      "searchable": true,
+      "sortable": true,
+      "width": "250px",
+      "required": true,
+      "maxLength": 255
+    },
+    {
+      "fieldName": "Airline",
+      "displayName": "Airline",
+      "type": "choice",
+      "visible": true,
+      "filterable": true,
+      "searchable": false,
+      "sortable": true,
+      "width": "120px",
+      "choices": [
+        "Active",
+        "Inactive",
+        "Pending"
+      ]
+    },
+    {
+      "fieldName": "ReasonForTravel",
+      "displayName": "ReasonForTravel",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "searchable": true,
+      "sortable": false,
+      "width": "300px",
+      "maxLength": 1000
+    },
+    {
+      "fieldName": "Created",
+      "displayName": "Created Date",
+      "type": "date",
+      "visible": true,
+      "filterable": true,
+      "searchable": false,
+      "sortable": true,
+      "width": "150px",
+      "format": "date-time"
+    },
+    {
+      "fieldName": "Modified",
+      "displayName": "Modified Date",
+      "type": "date",
+      "visible": false,
+      "filterable": true,
+      "searchable": false,
+      "sortable": true,
+      "width": "150px",
+      "format": "date-time"
+    },
+    {
+      "fieldName": "Author",
+      "displayName": "Created By",
+      "type": "person",
+      "visible": true,
+      "filterable": true,
+      "searchable": false,
+      "sortable": true,
+      "width": "150px"
+    }
+  ],
+  "commonFilters": [
+    "Status",
+    "Created",
+    "Author"
+  ],
+  "searchableFields": [
+    "Title",
+    "Description"
+  ],
+  "itemsPerPage": 10,
+  "theme": {
+    "primaryColor": "#007BFF",
+    "secondaryColor": "#6C757D",
+    "accentColor": "#28A745",
+    "backgroundColor": "#F8F9FA",
+    "textColor": "#212529",
+    "borderColor": "#DEE2E6"
+  },
+  "enableAddForm": true,
+  "enableEditForm": true,
+  "enableDeleteForm": true,
+  "enableColumnSelector": true,
+  "enableExport": false
+}

@@ -1,7 +1,8 @@
 import * as React from "react";
-
+import Dashboard from "./Dashboard/Dashboard";
+import configuration from "../config/dashboardConfigExample.json";
 const MainComponent = ({ spfxContext }: any) => {
-  return <div>MainComponent works!</div>;
+  return <Dashboard context={spfxContext} config={configuration}/>;
 };
 
 export default MainComponent;

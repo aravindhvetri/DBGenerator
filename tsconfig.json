@@ -13,6 +13,8 @@
     "outDir": "lib",
     "inlineSources": false,
     "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
 
     "typeRoots": [
       "./node_modules/@types",
@@ -23,6 +25,7 @@
     ],
     "lib": [
       "es5",
+      "ES2016",
       "dom",
       "es2015.collection",
       "es2015.promise"
